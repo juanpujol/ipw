@@ -29,6 +29,15 @@
       line-height: 1.6;
       margin: 1rem 0 1.5rem;
     }
+    code {
+      display: flex;
+      margin: 1rem 0 1.5rem;
+      padding: 0.2rem 1.5rem;
+      background-color: #eee;
+      font-size: 14px;
+      line-height: 1.5;
+      border-radius: 9px;
+    }
     .inline {
       display: flex;
     }
@@ -65,6 +74,19 @@
 
   <p>Try it now with <b>GET</b>: <a href="https://ipw.qtal.pro/api" target="_blank" rel="noopener">https://ipw.qtal.pro/api</a></p>
 
+  <p>Or use <b>curl</b> to try other methods.</p>
+
+<code>
+<pre>
+curl --request GET https://ipw.qtal.pro/api
+curl --request POST https://ipw.qtal.pro/api
+curl --request PUT https://ipw.qtal.pro/api
+curl --request PATCH https://ipw.qtal.pro/api
+curl --request DELETE https://ipw.qtal.pro/api
+curl --request OPTIONS https://ipw.qtal.pro/api
+</pre>
+</code>
+
   <h2>Deploy with Vercel</h2>
 
   <p>This requires a free account on <a href="https://vercel.com/" target="_blank" rel="noopener">https://vercel.com/</a></p>
@@ -74,5 +96,7 @@
       <img src="https://vercel.com/button" alt="Deploy with Vercel"/>
     </a>
   </p>
+
+  <i style="color: #666;">*No Environment Variables required.</i>
 </body>
 </html>
