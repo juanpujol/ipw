@@ -34,3 +34,15 @@ curl --request OPTIONS https://ipw.qtal.pro/api
 By default the API returns `JSON`. If you want to return `text` or `XML`, simply pass the query string `?f={format}`.
 
 Like this: https://ipw.qtal.pro/api?f=text or https://ipw.qtal.pro/api?f=xml
+
+## Notes
+
+I built this solution because I needed a way to verify the client IP when doing requests as POST and PUT. And also, I like building stuff for fun, this is not intended to become a highly demanded project.
+
+So, if you need to check client IPs using only GET, and you need that solution to scale to a huge level, I will recommend using https://www.ipify.org/. It's free, open-source, awesome, and like they say on their website:
+
+> You can use it without limit (even if you're doing millions of requests per minute.
+
+That's a really good deal!
+
+Thanks for reading until the end, here, have a ❤️.
