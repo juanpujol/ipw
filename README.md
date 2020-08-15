@@ -1,5 +1,7 @@
 # IPW
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/dba35aa2cf2c45f20d2e/maintainability)](https://codeclimate.com/github/juanpujol/ipw/maintainability)
+
 IP Watcher its a simple API that returns the client's IP while using any http method. **GET**, **POST**, **PUT**, **PATCH**, or **DELETE**. Very useful to verify IPs when using proxies or VPNs.
 
 ## How to Use
