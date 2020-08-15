@@ -23,7 +23,7 @@ curl --request OPTIONS https://ipw.qtal.pro/api
 
 ### Return as text or XML
 
-If you want to return the IP as text or XML, simply pass the query string `?f={format}`
+By default the API returns `JSON`. If you want to return the IP as text or XML, simply pass the query string `?f={format}`
 
 Like this: https://ipw.qtal.pro/api?f=text or https://ipw.qtal.pro/api?f=xml
 
