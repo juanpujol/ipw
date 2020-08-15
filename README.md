@@ -10,6 +10,6 @@ Try it now with **GET**: https://ipw.qtal.pro/api
 
 ## Deploy with Vercel
 
-This requires to have a free account on https://vercel.com/
+This requires a free account on https://vercel.com/
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fjuanpujol%2Fipw&project-name=ipw&repository-name=ipw)
