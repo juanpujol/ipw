@@ -25,18 +25,24 @@
       margin: 2rem 0 1rem;
       letter-spacing: -1px;
     }
+    h3 {
+      font-size: 1.4;
+      font-weight: 600;
+    }
     p {
       line-height: 1.6;
       margin: 1rem 0 1.5rem;
     }
     code {
-      display: flex;
       margin: 1rem 0 1.5rem;
       padding: 0.2rem 1.5rem;
       background-color: #eee;
       font-size: 14px;
       line-height: 1.5;
       border-radius: 9px;
+    }
+    .block {
+      display: block;
     }
     .inline {
       display: flex;
@@ -76,7 +82,7 @@
 
   <p>Or use <b>curl</b> to try other methods.</p>
 
-<code>
+<code class="block">
 <pre>
 curl --request GET https://ipw.qtal.pro/api
 curl --request POST https://ipw.qtal.pro/api
@@ -86,6 +92,12 @@ curl --request DELETE https://ipw.qtal.pro/api
 curl --request OPTIONS https://ipw.qtal.pro/api
 </pre>
 </code>
+
+  <h3>Return as text or XML</h3>
+
+  <p>If you want to return the IP as text or XML, simply pass the query string <i>?f={format}</i>.</p>
+
+  <p>Like this: <a href="https://ipw.qtal.pro/api?f=text" target="_blank" rel="noopener">https://ipw.qtal.pro/api?f=text</a> or <a href="https://ipw.qtal.pro/api?f=xml" target="_blank" rel="noopener">https://ipw.qtal.pro/api?f=xml</a></p>
 
   <h2>Deploy with Vercel</h2>
 

@@ -21,6 +21,12 @@ curl --request DELETE https://ipw.qtal.pro/api
 curl --request OPTIONS https://ipw.qtal.pro/api
 ```
 
+### Return as text or XML
+
+If you want to return the IP as text or XML, simply pass the query string `?f={format}`
+
+Like this: https://ipw.qtal.pro/api?f=text or https://ipw.qtal.pro/api?f=xml
+
 ## Deploy with Vercel
 
 This requires a free account on https://vercel.com/
