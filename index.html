@@ -16,16 +16,50 @@
     }
     h1 {
       font-size: 3.5rem;
-      margin: 0 0 1rem;
+      margin: 2rem 0 1rem;
       letter-spacing: -3px;
+    }
+    h2 {
+      font-size: 1.8rem;
+      margin: 2rem 0 1rem;
+      letter-spacing: -1px;
     }
     p {
       line-height: 1.6;
+      margin: 1rem 0 1.5rem;
+    }
+    .inline {
+      display: flex;
+    }
+    .inline > span {
+      margin-right: 0.5rem;
     }
   </style>
+
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 <body>
   <h1>IPW</h1>
-  <p>An IP that returns the client IP on any method. GET, POST, PUT, PATCH or DELETE. Deploy directly to Vercel.</p>
+  <p>IP Watcher its a very simple API that returns the client's IP while using any http method. <b>GET</b>, <b>POST</b>, <b>PUT</b>, <b>PATCH</b>, or <b>DELETE</b>. Very useful to verify IPs when using proxies or VPNs.</p>
+
+  <div class="inline">
+    <a class="github-button" href="https://github.com/juanpujol/ipw/fork" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Fork juanpujol/ipw on GitHub">Fork</a>
+    <a class="github-button" href="https://github.com/juanpujol" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Follow @juanpujol on GitHub">Follow @juanpujol</a>
+  </div>
+
+  <h2>How to Use</h2>
+  <p>Just request the endpoint with `/api` using any method, and it will return a JSON object with the origin IP.</p>
+
+  <p>Try it now with <b>GET</b>: <a href="https://ipw.qtal.pro/api" target="_blank" rel="noopener">https://ipw.qtal.pro/api</a></p>
+
+  <h2>Deploy with Vercel</h2>
+
+  <p>This requires to have a free account on <a href="https://vercel.com/" target="_blank" rel="noopener"></a>https://vercel.com/</a></p>
+
+  <p>
+    <a href="https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fjuanpujol%2Fipw&project-name=ipw&repository-name=ipw" target="_blank" rel="noopener">
+      <img src="https://vercel.com/button" alt="Deploy with Vercel"/>
+    </a>
+  </p>
 </body>
 </html>
