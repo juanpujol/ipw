@@ -1,6 +1,6 @@
 # IPW
 
-IP Watcher its a very simple API that returns the client's IP while using any http method. **GET**, **POST**, **PUT**, **PATCH**, or **DELETE**. Very useful to verify IPs when using proxies or VPNs.
+IP Watcher its a simple API that returns the client's IP while using any http method. **GET**, **POST**, **PUT**, **PATCH**, or **DELETE**. Very useful to verify IPs when using proxies or VPNs.
 
 ## How to Use
 
